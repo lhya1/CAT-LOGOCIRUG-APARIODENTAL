@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Cirugía Periodontal | Nicole Giraldo y Lucero</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="outer-frame">
+    <div class="page-shell">
+
+      <!-- Barra superior -->
+      <nav class="topbar">
+        <span class="nav-meta">CIRUGÍA PERIODONTAL</span>
+        <a href="#catalogo" class="brand-logo">NICOLE &amp; LUCERO</a>
+        <a href="#catalogo" class="pill-btn">VER CATÁLOGO →</a>
+      </nav>
+
+      <!-- Hero en rosa pastel con estrellas -->
+      <header class="hero-pink">
+        <span class="star star-1">✦</span>
+        <span class="star star-2">✧</span>
+        <span class="star star-3">✦</span>
+        <span class="star star-4">✧</span>
+
+        <div class="hero-content">
+          <span class="kicker">GUÍA VISUAL DE INSTRUMENTAL</span>
+          <h1>Cirugía periodontal.<br />Precisión &amp; detalle.</h1>
+          <p class="hero-desc">
+            Catálogo organizado por tiempos quirúrgicos con referencias, marcas y características
+            de cada instrumento recopilado en el dossier de <strong>Nicole Giraldo y Lucero</strong>.
+          </p>
+          <a href="#catalogo" class="cta-dark">EXPLORAR INSTRUMENTOS →</a>
+        </div>
+      </header>
+
+      <!-- Franja lila con 4 bloques -->
+      <section class="lilac-strip" aria-label="Resumen del catálogo">
+        <div class="strip-item">
+          <span class="strip-icon">✂️</span>
+          <strong>Incisión y colgajo</strong>
+          <small>Bisturís y periostotomo</small>
+        </div>
+        <div class="strip-item">
+          <span class="strip-icon">✨</span>
+          <strong>Limpieza radicular</strong>
+          <small>Gracey, Columbia y fresas</small>
+        </div>
+        <div class="strip-item">
+          <span class="strip-icon">🦴</span>
+          <strong>Cirugía ósea</strong>
+          <small>Limas, gubias y hueso</small>
+        </div>
+        <div class="strip-item">
+          <span class="strip-icon">🧵</span>
+          <strong>Visión y sutura</strong>
+          <small>Separadores e hilos</small>
+        </div>
+      </section>
+
+      <!-- Buscador y filtros -->
+      <section class="intro-section" id="catalogo">
+        <span class="star star-5">✦</span>
+        <span class="star star-6">✧</span>
+
+        <div class="intro-box">
+          <h2>Todo el instrumental, en un vistazo</h2>
+          <p>
+            Filtra por etapa quirúrgica o busca por nombre, numeración o marca para repasar
+            rápidamente cada pieza del catálogo.
+          </p>
+
+          <div class="search-wrap">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Buscar por instrumento, número o marca (ej. Gracey, Medicaline, 15, Bader)..."
+              aria-label="Buscar instrumento"
+            />
+          </div>
+
+          <div class="filters" id="categoryFilters">
+            <button class="filter-btn active" data-category="all">Todos</button>
+            <button class="filter-btn" data-category="incision">Incisión</button>
+            <button class="filter-btn" data-category="despegamiento">Despegamiento</button>
+            <button class="filter-btn" data-category="limpieza">Limpieza y pulido</button>
+            <button class="filter-btn" data-category="pinzas">Pinzas</button>
+            <button class="filter-btn" data-category="osea">Cirugía ósea</button>
+            <button class="filter-btn" data-category="visualizacion">Visualización</button>
+            <button class="filter-btn" data-category="sutura">Sutura</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Zona blanca con tarjetas -->
+      <main class="catalog-white">
+        <div class="catalog-header">
+          <span id="resultsCount">Mostrando instrumentos</span>
+        </div>
+        <div id="catalogGrid" class="grid"></div>
+      </main>
+
+      <!-- Franja rosa inferior -->
+      <section class="pink-banner">
+        <span class="star star-7">✧</span>
+        <span class="star star-8">✦</span>
+        <h3>Organizado por tiempos quirúrgicos</h3>
+        <p>Ideal para repaso clínico, prácticas de laboratorio y consulta rápida.</p>
+      </section>
+
+      <!-- Footer lila -->
+      <footer class="lilac-footer">
+        <div class="footer-brand">
+          <div class="footer-logo">NICOLE &amp; LUCERO</div>
+          <p>Catálogo de Cirugía Periodontal</p>
+        </div>
+        <div class="footer-links">
+          <span>INCISIÓN</span>
+          <span>LIMPIEZA</span>
+          <span>CIRUGÍA ÓSEA</span>
+          <span>SUTURA</span>
+        </div>
+        <div class="footer-bottom">
+          <span>CATÁLOGO ACADÉMICO · CIRUGÍA PERIODONTAL</span>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
