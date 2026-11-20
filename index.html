@@ -10,122 +10,257 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Estrellas de fondo sobre el lila exterior -->
+  <span class="bg-star bg-star-1">✦</span>
+  <span class="bg-star bg-star-2">✧</span>
+  <span class="bg-star bg-star-3">✦</span>
+  <span class="bg-star bg-star-4">✧</span>
+  <span class="bg-star bg-star-5">✦</span>
+
   <div class="outer-frame">
     <div class="page-shell">
 
-      <!-- Barra superior -->
-      <nav class="topbar">
-        <span class="nav-meta">CIRUGÍA PERIODONTAL</span>
-        <a href="#catalogo" class="brand-logo">NICOLE &amp; LUCERO</a>
-        <a href="#catalogo" class="pill-btn">VER CATÁLOGO →</a>
-      </nav>
-
-      <!-- Hero en rosa pastel con estrellas -->
+      <!-- 1. Cabecera Rosa + Nav con logo centrado -->
       <header class="hero-pink">
-        <span class="star star-1">✦</span>
-        <span class="star star-2">✧</span>
-        <span class="star star-3">✦</span>
-        <span class="star star-4">✧</span>
+        <nav class="topbar">
+          <div class="nav-group nav-left">
+            <a href="#tiempos">TIEMPOS</a>
+            <a href="#destacado">GUÍA</a>
+            <a href="#catalogo">CATÁLOGO</a>
+          </div>
 
-        <div class="hero-content">
-          <span class="kicker">GUÍA VISUAL DE INSTRUMENTAL</span>
-          <h1>Cirugía periodontal.<br />Precisión &amp; detalle.</h1>
-          <p class="hero-desc">
-            Catálogo organizado por tiempos quirúrgicos con referencias, marcas y características
-            de cada instrumento recopilado en el dossier de <strong>Nicole Giraldo y Lucero</strong>.
-          </p>
-          <a href="#catalogo" class="cta-dark">EXPLORAR INSTRUMENTOS →</a>
+          <a href="#" class="center-brand">
+            <span>NICOLE</span>
+            <span>&amp; LUCERO</span>
+          </a>
+
+          <div class="nav-group nav-right">
+            <a href="#galeria-posts">FICHAS</a>
+            <a href="#buscador">FILTROS</a>
+            <a href="#catalogo" class="nav-pill">INSTRUMENTAL</a>
+          </div>
+        </nav>
+
+        <span class="hero-spark s1">✦</span>
+        <span class="hero-spark s2">✧</span>
+        <span class="hero-spark s3">✦</span>
+        <span class="hero-spark s4">✧</span>
+
+        <div class="hero-grid">
+          <div class="hero-visual">
+            <div class="hero-card-pair">
+              <div class="hero-mini-card tilt-left">
+                <span class="mini-tag">01 · INCISIÓN</span>
+                <strong>Bisturís &amp; Mango</strong>
+                <p>Hojas 11, 12, 15, Bard Parker, interdental y microcirugía</p>
+              </div>
+              <div class="hero-mini-card tilt-right">
+                <span class="mini-tag">03 · LIMPIEZA</span>
+                <strong>Curetas &amp; Pulido</strong>
+                <p>Gracey 1/2–17/18, Columbia, Hoz H6/H7, Azadón y fresa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-copy">
+            <h1>Cirugía periodontal.<br />Clara &amp; visual.</h1>
+            <p>
+              Dossier completo de instrumental periodontal recopilado por <strong>Nicole Giraldo y Lucero</strong>,
+              organizado por tiempos quirúrgicos con marcas, referencias y número de página.
+            </p>
+            <a href="#catalogo" class="btn-outline-pill">VER CATÁLOGO →</a>
+          </div>
         </div>
       </header>
 
-      <!-- Franja lila con 4 bloques -->
-      <section class="lilac-strip" aria-label="Resumen del catálogo">
-        <div class="strip-item">
-          <span class="strip-icon">✂️</span>
-          <strong>Incisión y colgajo</strong>
-          <small>Bisturís y periostotomo</small>
+      <!-- 2. Franja Lila de 4 iconos/pilares -->
+      <section class="lilac-bar" id="tiempos" aria-label="Etapas del catálogo">
+        <div class="lilac-bar-item">
+          <span class="bar-icon">🔪</span>
+          <span>Incisión y colgajo</span>
         </div>
-        <div class="strip-item">
-          <span class="strip-icon">✨</span>
-          <strong>Limpieza radicular</strong>
-          <small>Gracey, Columbia y fresas</small>
+        <div class="lilac-bar-item">
+          <span class="bar-icon">🪥</span>
+          <span>Limpieza y pulido</span>
         </div>
-        <div class="strip-item">
-          <span class="strip-icon">🦴</span>
-          <strong>Cirugía ósea</strong>
-          <small>Limas, gubias y hueso</small>
+        <div class="lilac-bar-item">
+          <span class="bar-icon">🦴</span>
+          <span>Cirugía ósea</span>
         </div>
-        <div class="strip-item">
-          <span class="strip-icon">🧵</span>
-          <strong>Visión y sutura</strong>
-          <small>Separadores e hilos</small>
+        <div class="lilac-bar-item">
+          <span class="bar-icon">🪡</span>
+          <span>Visión y sutura</span>
         </div>
       </section>
 
-      <!-- Buscador y filtros -->
-      <section class="intro-section" id="catalogo">
-        <span class="star star-5">✦</span>
-        <span class="star star-6">✧</span>
+      <!-- 3. Sección Rosa con tarjetas laterales y buscador/filtros -->
+      <section class="pink-editorial" id="buscador">
+        <span class="hero-spark s5">✧</span>
+        <span class="hero-spark s6">✦</span>
 
-        <div class="intro-box">
-          <h2>Todo el instrumental, en un vistazo</h2>
+        <div class="editorial-layout">
+          <aside class="side-badge side-left">
+            <span>NICOLE &amp; LUCERO</span>
+            <small>CATÁLOGO</small>
+          </aside>
+
+          <div class="editorial-center">
+            <h2>¿Por qué este catálogo?</h2>
+            <p class="editorial-text">
+              Reúne en un solo lugar el instrumental esencial de cirugía periodontal —desde el bisturí y el
+              periostotomo hasta las curetas, limas óseas, separadores y suturas— para repasar sin perder
+              ningún detalle de referencia o marca.
+            </p>
+
+            <div class="search-box">
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Buscar instrumento, número o marca (ej. Gracey, Medicaline, 15, Bader)..."
+                aria-label="Buscar instrumento"
+              />
+            </div>
+
+            <div class="filters" id="categoryFilters">
+              <button class="filter-btn active" data-category="all">Todos</button>
+              <button class="filter-btn" data-category="incision">Incisión</button>
+              <button class="filter-btn" data-category="despegamiento">Despegamiento</button>
+              <button class="filter-btn" data-category="limpieza">Limpieza y pulido</button>
+              <button class="filter-btn" data-category="pinzas">Pinzas</button>
+              <button class="filter-btn" data-category="osea">Cirugía ósea</button>
+              <button class="filter-btn" data-category="visualizacion">Visualización</button>
+              <button class="filter-btn" data-category="sutura">Sutura</button>
+            </div>
+          </div>
+
+          <aside class="side-badge side-right">
+            <span>38 PÁGS</span>
+            <small>PERIODONCIA</small>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 4. Bloque Blanco Split (collage a la izquierda + resumen y mini-iconos a la derecha) -->
+      <section class="white-split" id="destacado">
+        <div class="split-collage">
+          <div class="collage-main">
+            <img src="img/10-curetas-gracey-set.png" alt="Curetas Gracey" onerror="this.src='https://placehold.co/500x320/f8e8f0/5b2c83?text=Curetas+Gracey+Hu-Friedy'" />
+          </div>
+          <div class="collage-bottom-row">
+            <div class="collage-sub">
+              <img src="img/08-periostotomo.png" alt="Periostotomo" onerror="this.src='https://placehold.co/260x180/efe6f7/5b2c83?text=Periostotomo'" />
+            </div>
+            <div class="collage-sub">
+              <img src="img/24-limas-oseas.png" alt="Limas óseas" onerror="this.src='https://placehold.co/260x180/f8e8f0/5b2c83?text=Limas+%C3%93seas'" />
+            </div>
+          </div>
+        </div>
+
+        <div class="split-info">
+          <h3>Instrumental Clínico Periodontal</h3>
           <p>
-            Filtra por etapa quirúrgica o busca por nombre, numeración o marca para repasar
-            rápidamente cada pieza del catálogo.
+            Cada ficha incluye su categoría quirúrgica, página de referencia en el PDF original y datos
+            técnicos clave como numeración, marca (Surtex, Veladent, Hu-Friedy, Nordent, Henry Schein,
+            Miller-Colburn, Bader, Medicaline, Boz) y código de producto.
           </p>
 
-          <div class="search-wrap">
-            <input
-              type="text"
-              id="searchInput"
-              placeholder="Buscar por instrumento, número o marca (ej. Gracey, Medicaline, 15, Bader)..."
-              aria-label="Buscar instrumento"
-            />
+          <div class="mini-features">
+            <div class="mini-feat">
+              <span>✂️</span>
+              <small>Incisión y colgajo</small>
+            </div>
+            <div class="mini-feat">
+              <span>✨</span>
+              <small>Raspado y pulido</small>
+            </div>
+            <div class="mini-feat">
+              <span>🦴</span>
+              <small>Remodelado óseo</small>
+            </div>
+            <div class="mini-feat">
+              <span>🪡</span>
+              <small>Sutura y visión</small>
+            </div>
           </div>
 
-          <div class="filters" id="categoryFilters">
-            <button class="filter-btn active" data-category="all">Todos</button>
-            <button class="filter-btn" data-category="incision">Incisión</button>
-            <button class="filter-btn" data-category="despegamiento">Despegamiento</button>
-            <button class="filter-btn" data-category="limpieza">Limpieza y pulido</button>
-            <button class="filter-btn" data-category="pinzas">Pinzas</button>
-            <button class="filter-btn" data-category="osea">Cirugía ósea</button>
-            <button class="filter-btn" data-category="visualizacion">Visualización</button>
-            <button class="filter-btn" data-category="sutura">Sutura</button>
-          </div>
+          <a href="#catalogo" class="btn-solid-plum">VER TODO EL LISTADO</a>
         </div>
       </section>
 
-      <!-- Zona blanca con tarjetas -->
-      <main class="catalog-white">
-        <div class="catalog-header">
-          <span id="resultsCount">Mostrando instrumentos</span>
+      <!-- 5. Franja Rosa con 4 tarjetas inclinadas tipo galería -->
+      <section class="pink-cards-strip" id="galeria-posts">
+        <h3>Etapas clave del catálogo</h3>
+        <div class="polaroid-row">
+          <a href="#catalogo" class="polaroid p1" data-jump-cat="incision">
+            <div class="polaroid-frame">
+              <span>01</span>
+              <strong>Incisión</strong>
+              <small>Hojas 11, 12, 15 · Bard Parker · Microcirugía</small>
+            </div>
+            <div class="polaroid-footer">♡ ☆ ···</div>
+          </a>
+
+          <a href="#catalogo" class="polaroid p2" data-jump-cat="limpieza">
+            <div class="polaroid-frame">
+              <span>03</span>
+              <strong>Limpieza y Pulido</strong>
+              <small>Gracey · Columbia · Hoz · Azadón · Fresa</small>
+            </div>
+            <div class="polaroid-footer">♡ ☆ ···</div>
+          </a>
+
+          <a href="#catalogo" class="polaroid p3" data-jump-cat="osea">
+            <div class="polaroid-frame">
+              <span>05</span>
+              <strong>Cirugía Ósea</strong>
+              <small>Miller-Colburn · Cinceles · Gubias · Hueso</small>
+            </div>
+            <div class="polaroid-footer">♡ ☆ ···</div>
+          </a>
+
+          <a href="#catalogo" class="polaroid p4" data-jump-cat="sutura">
+            <div class="polaroid-frame">
+              <span>07</span>
+              <strong>Sutura</strong>
+              <small>Portaagujas · Tijeras · Adson · Seda Boz</small>
+            </div>
+            <div class="polaroid-footer">♡ ☆ ···</div>
+          </a>
+        </div>
+      </section>
+
+      <!-- 6. Catálogo completo de tarjetas en fondo blanco -->
+      <main class="catalog-section" id="catalogo">
+        <div class="catalog-top-bar">
+          <h3>Fichas de instrumentos</h3>
+          <span id="resultsCount">30 instrumentos</span>
         </div>
         <div id="catalogGrid" class="grid"></div>
       </main>
 
-      <!-- Franja rosa inferior -->
-      <section class="pink-banner">
-        <span class="star star-7">✧</span>
-        <span class="star star-8">✦</span>
-        <h3>Organizado por tiempos quirúrgicos</h3>
-        <p>Ideal para repaso clínico, prácticas de laboratorio y consulta rápida.</p>
-      </section>
-
-      <!-- Footer lila -->
+      <!-- 7. Footer Lila estilo referencia -->
       <footer class="lilac-footer">
-        <div class="footer-brand">
-          <div class="footer-logo">NICOLE &amp; LUCERO</div>
-          <p>Catálogo de Cirugía Periodontal</p>
+        <div class="footer-left">
+          <div class="footer-logo">NICOLE<br />&amp; LUCERO</div>
         </div>
-        <div class="footer-links">
-          <span>INCISIÓN</span>
-          <span>LIMPIEZA</span>
-          <span>CIRUGÍA ÓSEA</span>
-          <span>SUTURA</span>
+
+        <div class="footer-right">
+          <ul class="footer-nav">
+            <li><a href="#tiempos">TIEMPOS</a></li>
+            <li><a href="#catalogo">CATÁLOGO</a></li>
+            <li><a href="#destacado">GUÍA</a></li>
+            <li><a href="#galeria-posts">FICHAS</a></li>
+          </ul>
+          <div class="footer-socials" aria-label="Etiquetas">
+            <span>✦</span>
+            <span>✧</span>
+            <span>🦷</span>
+            <span>📖</span>
+          </div>
         </div>
-        <div class="footer-bottom">
-          <span>CATÁLOGO ACADÉMICO · CIRUGÍA PERIODONTAL</span>
+
+        <div class="footer-credit">
+          CATÁLOGO DE CIRUGÍA PERIODONTAL · NICOLE GIRALDO Y LUCERO
         </div>
       </footer>
 
@@ -135,3 +270,1101 @@
   <script src="script.js"></script>
 </body>
 </html>
+2. styles.css
+CSS
+:root {
+  --outer-lilac: #c9bad7;
+  --inner-lilac: #c5b4d5;
+  --pink-hero: #e9c5d7;
+  --pink-soft: #edd0de;
+  --pink-strip: #e8c3d5;
+  --plum: #5e2d86;
+  --plum-dark: #431d63;
+  --ink: #322142;
+  --ink-muted: #665278;
+  --white: #ffffff;
+  --frame-line: #3b264e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--outer-lilac);
+  color: var(--ink);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.5;
+  position: relative;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .center-brand, .footer-logo, .btn-outline-pill, .btn-solid-plum, .filter-btn, .side-badge {
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* Estrellas decorativas en el fondo lila exterior */
+.bg-star {
+  position: fixed;
+  color: rgba(255, 255, 255, 0.85);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.bg-star-1 { top: 8%; left: 5%; font-size: 1.5rem; }
+.bg-star-2 { top: 24%; right: 4%; font-size: 1.1rem; }
+.bg-star-3 { top: 52%; left: 3.5%; font-size: 1.2rem; }
+.bg-star-4 { top: 74%; right: 4.5%; font-size: 1.6rem; }
+.bg-star-5 { bottom: 6%; left: 6%; font-size: 1.25rem; }
+
+.outer-frame {
+  position: relative;
+  z-index: 1;
+  padding: 36px 16px 56px;
+}
+
+.page-shell {
+  max-width: 820px;
+  margin: 0 auto;
+  background: var(--white);
+  border: 2px solid var(--frame-line);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(50, 33, 66, 0.16);
+}
+
+/* 1. Cabecera Rosa + Nav */
+.hero-pink {
+  position: relative;
+  background:
+    radial-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 0),
+    linear-gradient(180deg, #ecd0de 0%, var(--pink-hero) 100%);
+  background-size: 14px 14px, 100% 100%;
+  padding: 18px 28px 54px;
+  overflow: hidden;
+}
+
+.topbar {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 36px;
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.nav-group a {
+  text-decoration: none;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--plum);
+  text-transform: uppercase;
+}
+
+.nav-group a:hover {
+  text-decoration: underline;
+}
+
+.nav-pill {
+  background: var(--white);
+  border: 1.5px solid var(--plum);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.center-brand {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.92;
+  color: var(--plum);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.hero-spark {
+  position: absolute;
+  color: var(--white);
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
+
+.s1 { top: 88px; left: 8%; font-size: 1.3rem; }
+.s2 { top: 112px; right: 9%; font-size: 1rem; }
+.s3 { bottom: 26px; left: 11%; font-size: 1rem; }
+.s4 { bottom: 32px; right: 7%; font-size: 1.45rem; }
+.s5 { top: 24px; left: 8%; color: var(--white); font-size: 1.1rem; }
+.s6 { top: 34px; right: 8%; color: var(--white); font-size: 1.35rem; }
+
+.hero-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-card-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-mini-card {
+  background: var(--inner-lilac);
+  border: 2px solid var(--plum);
+  border-radius: 18px;
+  padding: 14px 16px;
+  color: var(--white);
+  box-shadow: 5px 5px 0 rgba(94, 45, 134, 0.22);
+}
+
+.tilt-left { transform: rotate(-2deg); }
+.tilt-right { transform: rotate(2deg); margin-left: 16px; }
+
+.mini-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  background: var(--plum);
+  color: var(--white);
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 5px;
+}
+
+.hero-mini-card strong {
+  display: block;
+  font-size: 1rem;
+  color: var(--plum-dark);
+  margin-bottom: 2px;
+}
+
+.hero-mini-card p {
+  font-size: 0.78rem;
+  color: var(--ink);
+}
+
+.hero-copy h1 {
+  font-size: clamp(2rem, 4.2vw, 2.75rem);
+  color: var(--plum);
+  line-height: 1.04;
+  margin-bottom: 12px;
+}
+
+.hero-copy p {
+  font-size: 0.88rem;
+  color: var(--ink);
+  margin-bottom: 18px;
+}
+
+.btn-outline-pill {
+  display: inline-block;
+  text-decoration: none;
+  background: var(--white);
+  color: var(--plum);
+  border: 1.5px solid var(--plum);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  padding: 8px 16px;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.btn-outline-pill:hover {
+  background: var(--plum);
+  color: var(--white);
+}
+
+/* 2. Franja Lila de 4 columnas */
+.lilac-bar {
+  background: var(--inner-lilac);
+  padding: 20px 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  text-align: center;
+}
+
+.lilac-bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: var(--plum);
+}
+
+.bar-icon {
+  font-size: 1.35rem;
+}
+
+.lilac-bar-item span:last-child {
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+/* 3. Sección Rosa editorial + buscador */
+.pink-editorial {
+  position: relative;
+  background: var(--pink-soft);
+  padding: 44px 24px;
+}
+
+.editorial-layout {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 110px 1fr 110px;
+  align-items: center;
+  gap: 14px;
+}
+
+.side-badge {
+  background: var(--inner-lilac);
+  border: 1.5px solid var(--plum);
+  border-radius: 14px;
+  padding: 12px 8px;
+  text-align: center;
+  color: var(--plum);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.side-left { transform: rotate(-7deg); }
+.side-right { transform: rotate(7deg); }
+
+.side-badge span {
+  font-size: 0.78rem;
+  line-height: 1.1;
+}
+
+.side-badge small {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.editorial-center {
+  text-align: center;
+}
+
+.editorial-center h2 {
+  font-size: 1.65rem;
+  color: var(--plum);
+  margin-bottom: 10px;
+}
+
+.editorial-text {
+  font-size: 0.84rem;
+  color: var(--ink);
+  max-width: 500px;
+  margin: 0 auto 18px;
+}
+
+.search-box {
+  max-width: 440px;
+  margin: 0 auto 14px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1.5px solid var(--plum);
+  background: var(--white);
+  color: var(--ink);
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.filter-btn {
+  background: var(--white);
+  color: var(--plum);
+  border: 1.5px solid var(--plum);
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: var(--plum);
+  color: var(--white);
+}
+
+/* 4. Bloque Blanco Split */
+.white-split {
+  background: var(--white);
+  padding: 40px 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.collage-main {
+  background: #f9edf3;
+  border: 1.5px solid rgba(94, 45, 134, 0.2);
+  border-radius: 14px;
+  height: 170px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.collage-bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.collage-sub {
+  background: #f3ebf9;
+  border: 1.5px solid rgba(94, 45, 134, 0.2);
+  border-radius: 14px;
+  height: 112px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-split img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.split-info h3 {
+  font-size: 1.45rem;
+  color: var(--plum);
+  margin-bottom: 10px;
+}
+
+.split-info p {
+  font-size: 0.84rem;
+  color: var(--ink-muted);
+  margin-bottom: 16px;
+}
+
+.mini-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.mini-feat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  color: var(--plum);
+}
+
+.mini-feat span {
+  font-size: 1.15rem;
+}
+
+.mini-feat small {
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.btn-solid-plum {
+  display: inline-block;
+  text-decoration: none;
+  background: var(--plum);
+  color: var(--white);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  padding: 8px 16px;
+  border-radius: 999px;
+}
+
+/* 5. Franja Rosa de 4 tarjetas inclinadas */
+.pink-cards-strip {
+  background: var(--pink-strip);
+  padding: 36px 24px 42px;
+  text-align: center;
+}
+
+.pink-cards-strip h3 {
+  font-size: 1.35rem;
+  color: var(--plum);
+  margin-bottom: 22px;
+}
+
+.polaroid-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  align-items: stretch;
+}
+
+.polaroid {
+  text-decoration: none;
+  background: var(--white);
+  border: 1.5px solid rgba(59, 38, 78, 0.25);
+  border-radius: 6px;
+  padding: 8px 8px 10px;
+  color: var(--ink);
+  box-shadow: 0 6px 14px rgba(50, 33, 66, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.15s ease;
+}
+
+.polaroid:hover {
+  transform: translateY(-4px) rotate(0deg) !important;
+}
+
+.p1 { transform: rotate(-2deg); }
+.p2 { transform: rotate(1.5deg); }
+.p3 { transform: rotate(-1.5deg); }
+.p4 { transform: rotate(2deg); }
+
+.polaroid-frame {
+  background: #f8e8f0;
+  border-radius: 4px;
+  padding: 12px 8px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.polaroid-frame span {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.75rem;
+  color: var(--plum);
+}
+
+.polaroid-frame strong {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.92rem;
+  color: var(--plum-dark);
+}
+
+.polaroid-frame small {
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+}
+
+.polaroid-footer {
+  padding-top: 7px;
+  font-size: 0.68rem;
+  color: var(--plum);
+  text-align: left;
+  letter-spacing: 0.08em;
+}
+
+/* 6. Catálogo completo en fondo blanco */
+.catalog-section {
+  background: var(--white);
+  padding: 36px 24px 44px;
+}
+
+.catalog-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid #f0e4f6;
+}
+
+.catalog-top-bar h3 {
+  font-size: 1.35rem;
+  color: var(--plum);
+}
+
+#resultsCount {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--white);
+  border: 1.5px solid rgba(59, 38, 78, 0.25);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 0 rgba(197, 180, 213, 0.55);
+}
+
+.card-img-box {
+  position: relative;
+  height: 150px;
+  background: #faf3f7;
+  border-bottom: 1px solid rgba(59, 38, 78, 0.12);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.page-pill {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--inner-lilac);
+  color: var(--plum);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+
+.card-body {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-cat {
+  font-size: 0.64rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #964ca6;
+  margin-bottom: 3px;
+}
+
+.card-title {
+  font-size: 0.98rem;
+  color: var(--plum);
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.card-desc {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.card-specs {
+  list-style: none;
+  border-top: 1px dashed rgba(59, 38, 78, 0.2);
+  padding-top: 7px;
+  font-size: 0.72rem;
+  color: var(--ink);
+}
+
+.card-specs li {
+  margin-bottom: 2px;
+}
+
+.card-specs strong {
+  color: var(--plum);
+}
+
+/* 7. Footer Lila estilo referencia */
+.lilac-footer {
+  background: var(--inner-lilac);
+  padding: 28px 28px 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 1.85rem;
+  line-height: 0.92;
+  color: var(--plum);
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: var(--plum);
+}
+
+.footer-credit {
+  grid-column: 1 / -1;
+  border-top: 1px solid rgba(50, 33, 66, 0.2);
+  padding-top: 10px;
+  text-align: center;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    justify-content: center;
+  }
+  .hero-grid,
+  .white-split,
+  .editorial-layout,
+  .lilac-footer {
+    grid-template-columns: 1fr;
+  }
+  .side-badge {
+    transform: none;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+  .lilac-bar,
+  .polaroid-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-right {
+    align-items: flex-start;
+  }
+  .footer-nav {
+    justify-content: flex-start;
+  }
+}
+3. script.js
+JavaScript
+const instrumentos = [
+  // 1. MATERIAL DE INCISIÓN
+  {
+    nombre: "Hojas de bisturí (Nº 11, 12 y 15)",
+    categoria: "incision",
+    categoriaNombre: "Material de incisión",
+    pagina: "Pág. 3",
+    imagen: "img/03-hojas-bisturi.png",
+    descripcion: "Hojas quirúrgicas desechables para incisiones periodontales y mucogingivales.",
+    detalles: ["Numeraciones: Nº 15, Nº 12, Nº 11"]
+  },
+  {
+    nombre: "Mango de bisturí (Bard Parker)",
+    categoria: "incision",
+    categoriaNombre: "Material de incisión",
+    pagina: "Pág. 4",
+    imagen: "img/04-mango-bard-parker.png",
+    descripcion: "Mango plano estándar para montar hojas de bisturí quirúrgicas.",
+    detalles: ["Marca: SURTEX", "Certificación: CE"]
+  },
+  {
+    nombre: "Bisturí interdental",
+    categoria: "incision",
+    categoriaNombre: "Material de incisión",
+    pagina: "Pág. 5",
+    imagen: "img/05-bisturi-interdental.png",
+    descripcion: "Instrumento de doble parte activa angulada para incisiones en espacios interproximales.",
+    detalles: ["Uso: Gingivectomía y zonas interdentales"]
+  },
+  {
+    nombre: "Bisturí de microcirugía",
+    categoria: "incision",
+    categoriaNombre: "Material de incisión",
+    pagina: "Pág. 6",
+    imagen: "img/06-bisturi-microcirugia.png",
+    descripcion: "Bisturí fino de alta precisión con hoja curva para incisiones delicadas.",
+    detalles: ["Uso: Microcirugía periodontal"]
+  },
+
+  // 2. MATERIAL DE DESPEGAMIENTO
+  {
+    nombre: "Periostotomo",
+    categoria: "despegamiento",
+    categoriaNombre: "Material de despegamiento",
+    pagina: "Pág. 8",
+    imagen: "img/08-periostotomo.png",
+    descripcion: "Instrumento de doble extremo para elevar y separar el colgajo mucoperióstico.",
+    detalles: ["Marca: VELADENT"]
+  },
+
+  // 3. MATERIAL DE LIMPIEZA Y PULIDO
+  {
+    nombre: "Curetas Gracey (Set completo)",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 10",
+    imagen: "img/10-curetas-gracey-set.png",
+    descripcion: "Curetas específicas de área con código de color para raspado y alisado radicular.",
+    detalles: ["Marca: Hu-Friedy", "Números: 1/2, 3/4, 5/6, 7/8, 9/10, 11/12, 13/14, 15/16, 17/18"]
+  },
+  {
+    nombre: "Curetas Gracey para sectores anteriores",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 11",
+    imagen: "img/11-curetas-anteriores.png",
+    descripcion: "Curetas orientadas al raspado subgingival en incisivos y caninos.",
+    detalles: ["Numeración: 1/2, 3/4, 5/6"]
+  },
+  {
+    nombre: "Curetas Gracey para premolares y molares",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 12",
+    imagen: "img/12-curetas-vestibular-palatino.png",
+    descripcion: "Indicadas para caras vestibulares y palatinas/linguales de premolares y molares.",
+    detalles: ["Numeración: 7/8, 9/10"]
+  },
+  {
+    nombre: "Curetas Gracey para mesial de posteriores",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 13",
+    imagen: "img/13-curetas-mesial-posteriores.png",
+    descripcion: "Cureta angulada para acceder a las superficies mesiales de piezas posteriores.",
+    detalles: ["Numeración: 11/12", "Ref. imagen: Dentaline 1993"]
+  },
+  {
+    nombre: "Curetas Columbia",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 14",
+    imagen: "img/14-curetas-columbia.png",
+    descripcion: "Curetas universales de doble extremo con doble filo activo.",
+    detalles: ["Referencias: 13-14, 2L-2R, 4L-4R", "Marca: LM / CE"]
+  },
+  {
+    nombre: "Hoz (H6/H7)",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 15",
+    imagen: "img/15-hoz.png",
+    descripcion: "Instrumento de punta triangular afilada para remoción de cálculo supragingival.",
+    detalles: ["Modelo: H6/H7"]
+  },
+  {
+    nombre: "Azadón",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 16",
+    imagen: "img/16-azadon.png",
+    descripcion: "Hoja angulada para eliminar depósitos de cálculo supragingival y subgingival accesible.",
+    detalles: ["Marca: Nordent"]
+  },
+  {
+    nombre: "Fresa de pulido radicular",
+    categoria: "limpieza",
+    categoriaNombre: "Material de limpieza y pulido",
+    pagina: "Pág. 17",
+    imagen: "img/17-fresa-pulido.png",
+    descripcion: "Fresa rotatoria para alisar y pulir la superficie radicular tras el raspado.",
+    detalles: ["Uso: Pulido radicular"]
+  },
+
+  // 4. PINZAS
+  {
+    nombre: "Pinzas de exploración",
+    categoria: "pinzas",
+    categoriaNombre: "Pinzas",
+    pagina: "Pág. 19",
+    imagen: "img/19-pinzas-exploracion.png",
+    descripcion: "Pinzas acodadas con punta estriada para sujetar torundas, gasas y elementos pequeños.",
+    detalles: ["Tipo: Exploración / Algodonera"]
+  },
+  {
+    nombre: "Pinzas Adson",
+    categoria: "pinzas",
+    categoriaNombre: "Pinzas",
+    pagina: "Pág. 20",
+    imagen: "img/20-pinzas-adson.png",
+    descripcion: "Pinzas de punta fina para manipular tejidos blandos con precisión.",
+    detalles: ["Variantes: Con dientes y sin dientes"]
+  },
+  {
+    nombre: "Pinza mosquito",
+    categoria: "pinzas",
+    categoriaNombre: "Pinzas",
+    pagina: "Pág. 21",
+    imagen: "img/21-pinza-mosquito.png",
+    descripcion: "Pinza hemostática con cremallera de cierre para clampear vasos o sujetar tejidos.",
+    detalles: ["Parte activa: Estriada"]
+  },
+  {
+    nombre: "Pinza gubia (SCHEIN)",
+    categoria: "pinzas",
+    categoriaNombre: "Pinzas",
+    pagina: "Pág. 22",
+    imagen: "img/22-pinza-gubia-schein.png",
+    descripcion: "Pinza articulada con resorte para recortar y regularizar rebordes óseos.",
+    detalles: ["Marca: HENRY SCHEIN (Germany stainless)"]
+  },
+
+  // 5. MATERIAL DE CIRUGÍA ÓSEA
+  {
+    nombre: "Limas óseas Miller-Colburn",
+    categoria: "osea",
+    categoriaNombre: "Material de cirugía ósea",
+    pagina: "Pág. 24",
+    imagen: "img/24-limas-oseas.png",
+    descripcion: "Limas de doble extremo con estrías para alisar y contornear superficies óseas.",
+    detalles: ["Modelo: MILLER-COLBURN", "Refs.: 1917/1, 1917/2, 1917/3, 1917/4", "Largo: 18,5 cm"]
+  },
+  {
+    nombre: "Cinceles",
+    categoria: "osea",
+    categoriaNombre: "Material de cirugía ósea",
+    pagina: "Pág. 25",
+    imagen: "img/25-cinceles.png",
+    descripcion: "Instrumentos manuales de corte para osteotomía y remodelado óseo.",
+    detalles: ["Uso: Cirugía ósea"]
+  },
+  {
+    nombre: "Fresa ósea",
+    categoria: "osea",
+    categoriaNombre: "Material de cirugía ósea",
+    pagina: "Pág. 26",
+    imagen: "img/26-fresa-osea.png",
+    descripcion: "Fresa quirúrgica rotatoria para osteoplastia y ostectomía.",
+    detalles: ["Uso: Cirugía ósea rotatoria"]
+  },
+  {
+    nombre: "Pinzas gubia (BADER)",
+    categoria: "osea",
+    categoriaNombre: "Material de cirugía ósea",
+    pagina: "Pág. 27",
+    imagen: "img/27-pinzas-gubia-bader.png",
+    descripcion: "Pinza gubia con resorte para regularización de hueso alveolar y espículas.",
+    detalles: ["Marca: BADER CE", "Ref.: 17/1090"]
+  },
+  {
+    nombre: "Cucharilla y compactador de hueso",
+    categoria: "osea",
+    categoriaNombre: "Material de cirugía ósea",
+    pagina: "Pág. 28",
+    imagen: "img/28-cucharilla-compactador.png",
+    descripcion: "Instrumento para transportar y condensar material de injerto o regeneración ósea.",
+    detalles: ["Uso: Manejo y compactación de hueso"]
+  },
+
+  // 6. INSTRUMENTAL PARA MEJORAR LA VISUALIZACIÓN
+  {
+    nombre: "Separador de comisuras",
+    categoria: "visualizacion",
+    categoriaNombre: "Mejorar la visualización",
+    pagina: "Pág. 30",
+    imagen: "img/30-separador-comisuras.png",
+    descripcion: "Retractor que aparta labios y comisuras para ampliar el campo visual.",
+    detalles: ["Uso: Retracción labial"]
+  },
+  {
+    nombre: "Separador Farabeuf",
+    categoria: "visualizacion",
+    categoriaNombre: "Mejorar la visualización",
+    pagina: "Pág. 31",
+    imagen: "img/31-separador-farabeuf.png",
+    descripcion: "Separador metálico de extremos curvos para retraer colgajos y tejidos blandos.",
+    detalles: ["Marca: MEDICALINE", "Ref.: ML40218 CE"]
+  },
+  {
+    nombre: "Abrebocas",
+    categoria: "visualizacion",
+    categoriaNombre: "Mejorar la visualización",
+    pagina: "Pág. 32",
+    imagen: "img/32-abrebocas.png",
+    descripcion: "Instrumento articulado con cremallera y protectores para mantener la apertura bucal.",
+    detalles: ["Con topes protectores"]
+  },
+
+  // 7. INSTRUMENTAL DE SUTURA
+  {
+    nombre: "Portaagujas",
+    categoria: "sutura",
+    categoriaNombre: "Instrumental de sutura",
+    pagina: "Pág. 34",
+    imagen: "img/34-portaagujas.png",
+    descripcion: "Instrumento con cremallera para sujetar la aguja quirúrgica durante la sutura.",
+    detalles: ["Marca: MEDICALINE", "Ref.: 45043"]
+  },
+  {
+    nombre: "Tijeras quirúrgicas",
+    categoria: "sutura",
+    categoriaNombre: "Instrumental de sutura",
+    pagina: "Pág. 35",
+    imagen: "img/35-tijeras.png",
+    descripcion: "Tijeras para corte de hilos de sutura y recorte de tejidos.",
+    detalles: ["Marca: MEDICALINE", "Ref.: 47003 / MS 3/15 CE"]
+  },
+  {
+    nombre: "Pinza mosquito (Sutura)",
+    categoria: "sutura",
+    categoriaNombre: "Instrumental de sutura",
+    pagina: "Pág. 36",
+    imagen: "img/36-pinza-mosquito-sutura.png",
+    descripcion: "Pinza auxiliar para sujetar cabos de sutura o apoyar la hemostasia.",
+    detalles: ["Uso: Apoyo en sutura"]
+  },
+  {
+    nombre: "Pinza Adson (Sutura)",
+    categoria: "sutura",
+    categoriaNombre: "Instrumental de sutura",
+    pagina: "Pág. 37",
+    imagen: "img/37-pinza-adson-sutura.png",
+    descripcion: "Pinza fina para estabilizar tejidos blandos al pasar la sutura.",
+    detalles: ["Marca: MEDICALINE", "Ref.: ML45641 ET CE"]
+  },
+  {
+    nombre: "Sutura dental (Seda quirúrgica)",
+    categoria: "sutura",
+    categoriaNombre: "Instrumental de sutura",
+    pagina: "Pág. 38",
+    imagen: "img/38-sutura-dental.png",
+    descripcion: "Sutura quirúrgica trenzada de seda negra recubierta de silicona con aguja atraumática.",
+    detalles: ["Marca: Boz", "Tipo: USP SILK (Seda negra)", "Aguja: 3/8", "Ref.: SB4757"]
+  }
+];
+
+const grid = document.getElementById("catalogGrid");
+const searchInput = document.getElementById("searchInput");
+const filterBtns = document.querySelectorAll(".filter-btn");
+const resultsCount = document.getElementById("resultsCount");
+const polaroidLinks = document.querySelectorAll("[data-jump-cat]");
+
+let currentCategory = "all";
+
+function setActiveCategory(cat) {
+  currentCategory = cat;
+  filterBtns.forEach(b => {
+    b.classList.toggle("active", b.dataset.category === cat);
+  });
+  filterItems();
+}
+
+function renderCards(items) {
+  grid.innerHTML = "";
+  resultsCount.textContent = `${items.length} ${items.length === 1 ? "instrumento" : "instrumentos"}`;
+
+  if (items.length === 0) {
+    grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: #665278; padding: 28px 0;">No se encontraron instrumentos que coincidan con tu búsqueda.</p>`;
+    return;
+  }
+
+  items.forEach(item => {
+    const specsHTML = item.detalles.map(d => {
+      const idx = d.indexOf(":");
+      if (idx !== -1) {
+        const label = d.slice(0, idx);
+        const value = d.slice(idx + 1).trim();
+        return `<li><strong>${label}:</strong> ${value}</li>`;
+      }
+      return `<li>${d}</li>`;
+    }).join("");
+
+    const placeholderUrl = `https://placehold.co/360x220/f8e8f0/5e2d86?text=${encodeURIComponent(item.nombre)}`;
+
+    const card = document.createElement("article");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="card-img-box">
+        <span class="page-pill">${item.pagina}</span>
+        <img src="${item.imagen}" alt="${item.nombre}" onerror="this.src='${placeholderUrl}'" />
+      </div>
+      <div class="card-body">
+        <span class="card-cat">${item.categoriaNombre}</span>
+        <h4 class="card-title">${item.nombre}</h4>
+        <p class="card-desc">${item.descripcion}</p>
+        <ul class="card-specs">${specsHTML}</ul>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function filterItems() {
+  const query = searchInput.value.toLowerCase().trim();
+  const filtered = instrumentos.filter(item => {
+    const matchCat = currentCategory === "all" || item.categoria === currentCategory;
+    const matchText =
+      item.nombre.toLowerCase().includes(query) ||
+      item.descripcion.toLowerCase().includes(query) ||
+      item.categoriaNombre.toLowerCase().includes(query) ||
+      item.detalles.some(d => d.toLowerCase().includes(query));
+    return matchCat && matchText;
+  });
+  renderCards(filtered);
+}
+
+filterBtns.forEach(btn => {
+  btn.addEventListener("click", () => {
+    setActiveCategory(btn.dataset.category);
+  });
+});
+
+polaroidLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    setActiveCategory(link.dataset.jumpCat);
+  });
+});
+
+searchInput.addEventListener("input", filterItems);
+
+renderCards(instrumentos);
